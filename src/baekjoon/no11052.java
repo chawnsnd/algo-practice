@@ -15,7 +15,6 @@ public class no11052 {
 			p[i+1] = Integer.parseInt(strArr[i]);
 		}
 		
-		scanner.close();
 		
 		dp[1] = p[1];
 		for(int i=2; i<N+1; i++) {
